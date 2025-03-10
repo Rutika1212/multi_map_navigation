@@ -170,7 +170,7 @@ private:
             return false;
         }
         
-        // Wait for result
+        // Waiting for result
         auto result_future = nav_client_->async_get_result(goal_handle);
         
         // Provide feedback while waiting
@@ -185,7 +185,7 @@ private:
             goal_handle_->publish_feedback(feedback);
         }
         
-        // Check result
+    
         auto result = result_future.get();
         if (result.code != rclcpp_action::ResultCode::SUCCEEDED) {
             RCLCPP_ERROR(this->get_logger(), "Navigation failed");
@@ -210,7 +210,7 @@ private:
         goal_handle->publish_feedback(feedback);
 
         if (goal->target_map == current_map_) {
-            // 🚀 Directly navigate to the goal in the same map
+           // Directly navigate to the goal in the same map
             RCLCPP_INFO(this->get_logger(), "Navigating directly within the same map.");
             
             bool nav_success = send_navigation_goal(goal->x, goal->y, goal->theta);
@@ -225,7 +225,7 @@ private:
                 goal_handle->abort(result);
             }
         } else {
-            // 🚀 Switch maps using a wormhole
+            // Switch maps using a wormhole
             if (!wormhole_client_->wait_for_service(std::chrono::seconds(5))) {
                 RCLCPP_ERROR(this->get_logger(), "Wormhole service unavailable.");
                 result->success = false;
