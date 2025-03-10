@@ -1,0 +1,7 @@
+{
+  "package_name": "multi_map_navigation",
+  "non_idl_tuples": [
+    "/home/rutika/wormhole_ws/src/multi_map_navigation:srv/GetWormhole.srv",
+    "/home/rutika/wormhole_ws/src/multi_map_navigation:action/Navigate.action"
+  ]
+}

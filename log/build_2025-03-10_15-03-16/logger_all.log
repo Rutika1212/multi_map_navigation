@@ -1,0 +1,166 @@
+[0.285s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.285s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f4127331210>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f41274a6110>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f41274a6110>>, mixin_verb=('build',))
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.593s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rutika/wormhole_ws'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_map_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_map_navigation) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_map_navigation) by extension 'ignore_ament_install'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_map_navigation) by extensions ['colcon_pkg']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_map_navigation) by extension 'colcon_pkg'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_map_navigation) by extensions ['colcon_meta']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_map_navigation) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_map_navigation) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_map_navigation) by extension 'ros'
+[0.610s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_map_navigation' with type 'ros.ament_cmake' and name 'multi_map_navigation'
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.647s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/rutika/wormhole_ws/install/multi_map_navigation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.654s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/rutika/wormhole_ws/install/multi_map_navigation' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.655s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/rutika/wormhole_ws/install
+[0.655s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/rutika/adv_ws/install
+[0.656s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/rutika/develop_ws/install
+[0.656s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rutika/rutika_practice_ws/install
+[0.656s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/rutika/level3_ws/install
+[0.657s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rutika/practice_ws/install
+[0.658s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rutika/activity_two_ws/install
+[0.658s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/rutika/ros2_rev_ws/install
+[0.659s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rutika/rutika_ros_ws/install
+[0.660s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/rutika/ros2_ws/install
+[0.661s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/rutika/course1_ws/install
+[0.661s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rutika/rr_ws/install
+[0.663s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 396 installed packages in /opt/ros/humble
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'multi_map_navigation' build argument 'cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'multi_map_navigation' build argument 'cmake_target' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'multi_map_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'multi_map_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'multi_map_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'multi_map_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'multi_map_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'multi_map_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'multi_map_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.824s] DEBUG:colcon.colcon_core.verb:Building package 'multi_map_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rutika/wormhole_ws/build/multi_map_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rutika/wormhole_ws/install/multi_map_navigation', 'merge_install': False, 'path': '/home/rutika/wormhole_ws/src/multi_map_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.824s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.826s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.826s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rutika/wormhole_ws/src/multi_map_navigation' with build type 'ament_cmake'
+[0.826s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rutika/wormhole_ws/src/multi_map_navigation'
+[0.832s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.832s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.832s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rutika/wormhole_ws/build/multi_map_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rutika/rr_ws/install/pick:/home/rutika/adv_ws/install/my_actions_py:/home/rutika/develop_ws/install/my_pub:/home/rutika/rutika_practice_ws/install/practice_pub:/home/rutika/level3_ws/install/actions_py:/home/rutika/practice_ws/install/practice_pkg:/home/rutika/activity_two_ws/install/activity_two_pkg:/home/rutika/ros2_rev_ws/install/my_py_pkg:/home/rutika/rutika_ros_ws/install/rutika_pkg:/home/rutika/ros2_ws/install/my_robot_controller:/home/rutika/course1_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/rutika/wormhole_ws/src/multi_map_navigation -DCMAKE_INSTALL_PREFIX=/home/rutika/wormhole_ws/install/multi_map_navigation
+[7.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rutika/wormhole_ws/build/multi_map_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rutika/rr_ws/install/pick:/home/rutika/adv_ws/install/my_actions_py:/home/rutika/develop_ws/install/my_pub:/home/rutika/rutika_practice_ws/install/practice_pub:/home/rutika/level3_ws/install/actions_py:/home/rutika/practice_ws/install/practice_pkg:/home/rutika/activity_two_ws/install/activity_two_pkg:/home/rutika/ros2_rev_ws/install/my_py_pkg:/home/rutika/rutika_ros_ws/install/rutika_pkg:/home/rutika/ros2_ws/install/my_robot_controller:/home/rutika/course1_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/rutika/wormhole_ws/src/multi_map_navigation -DCMAKE_INSTALL_PREFIX=/home/rutika/wormhole_ws/install/multi_map_navigation
+[7.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rutika/wormhole_ws/build/multi_map_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rutika/rr_ws/install/pick:/home/rutika/adv_ws/install/my_actions_py:/home/rutika/develop_ws/install/my_pub:/home/rutika/rutika_practice_ws/install/practice_pub:/home/rutika/level3_ws/install/actions_py:/home/rutika/practice_ws/install/practice_pkg:/home/rutika/activity_two_ws/install/activity_two_pkg:/home/rutika/ros2_rev_ws/install/my_py_pkg:/home/rutika/rutika_ros_ws/install/rutika_pkg:/home/rutika/ros2_ws/install/my_robot_controller:/home/rutika/course1_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rutika/wormhole_ws/build/multi_map_navigation -- -j8 -l8
+[15.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rutika/wormhole_ws/build/multi_map_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rutika/rr_ws/install/pick:/home/rutika/adv_ws/install/my_actions_py:/home/rutika/develop_ws/install/my_pub:/home/rutika/rutika_practice_ws/install/practice_pub:/home/rutika/level3_ws/install/actions_py:/home/rutika/practice_ws/install/practice_pkg:/home/rutika/activity_two_ws/install/activity_two_pkg:/home/rutika/ros2_rev_ws/install/my_py_pkg:/home/rutika/rutika_ros_ws/install/rutika_pkg:/home/rutika/ros2_ws/install/my_robot_controller:/home/rutika/course1_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rutika/wormhole_ws/build/multi_map_navigation -- -j8 -l8
+[15.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rutika/wormhole_ws/build/multi_map_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rutika/rr_ws/install/pick:/home/rutika/adv_ws/install/my_actions_py:/home/rutika/develop_ws/install/my_pub:/home/rutika/rutika_practice_ws/install/practice_pub:/home/rutika/level3_ws/install/actions_py:/home/rutika/practice_ws/install/practice_pkg:/home/rutika/activity_two_ws/install/activity_two_pkg:/home/rutika/ros2_rev_ws/install/my_py_pkg:/home/rutika/rutika_ros_ws/install/rutika_pkg:/home/rutika/ros2_ws/install/my_robot_controller:/home/rutika/course1_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rutika/wormhole_ws/build/multi_map_navigation
+[15.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_map_navigation)
+[15.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rutika/wormhole_ws/build/multi_map_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rutika/rr_ws/install/pick:/home/rutika/adv_ws/install/my_actions_py:/home/rutika/develop_ws/install/my_pub:/home/rutika/rutika_practice_ws/install/practice_pub:/home/rutika/level3_ws/install/actions_py:/home/rutika/practice_ws/install/practice_pkg:/home/rutika/activity_two_ws/install/activity_two_pkg:/home/rutika/ros2_rev_ws/install/my_py_pkg:/home/rutika/rutika_ros_ws/install/rutika_pkg:/home/rutika/ros2_ws/install/my_robot_controller:/home/rutika/course1_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rutika/wormhole_ws/build/multi_map_navigation
+[15.814s] Level 1:colcon.colcon_core.environment:checking '/home/rutika/wormhole_ws/install/multi_map_navigation' for CMake module files
+[15.815s] Level 1:colcon.colcon_core.environment:checking '/home/rutika/wormhole_ws/install/multi_map_navigation' for CMake config files
+[15.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_map_navigation', 'cmake_prefix_path')
+[15.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/hook/cmake_prefix_path.ps1'
+[15.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/hook/cmake_prefix_path.dsv'
+[15.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/hook/cmake_prefix_path.sh'
+[15.818s] Level 1:colcon.colcon_core.environment:checking '/home/rutika/wormhole_ws/install/multi_map_navigation/lib'
+[15.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_map_navigation', 'ld_library_path_lib')
+[15.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/hook/ld_library_path_lib.ps1'
+[15.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/hook/ld_library_path_lib.dsv'
+[15.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/hook/ld_library_path_lib.sh'
+[15.818s] Level 1:colcon.colcon_core.environment:checking '/home/rutika/wormhole_ws/install/multi_map_navigation/bin'
+[15.818s] Level 1:colcon.colcon_core.environment:checking '/home/rutika/wormhole_ws/install/multi_map_navigation/lib/pkgconfig/multi_map_navigation.pc'
+[15.818s] Level 1:colcon.colcon_core.environment:checking '/home/rutika/wormhole_ws/install/multi_map_navigation/lib/python3.10/site-packages'
+[15.819s] Level 1:colcon.colcon_core.environment:checking '/home/rutika/wormhole_ws/install/multi_map_navigation/bin'
+[15.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/package.ps1'
+[15.820s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/package.dsv'
+[15.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/package.sh'
+[15.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/package.bash'
+[15.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/package.zsh'
+[15.823s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rutika/wormhole_ws/install/multi_map_navigation/share/colcon-core/packages/multi_map_navigation)
+[15.824s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_map_navigation)
+[15.824s] Level 1:colcon.colcon_core.environment:checking '/home/rutika/wormhole_ws/install/multi_map_navigation' for CMake module files
+[15.824s] Level 1:colcon.colcon_core.environment:checking '/home/rutika/wormhole_ws/install/multi_map_navigation' for CMake config files
+[15.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_map_navigation', 'cmake_prefix_path')
+[15.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/hook/cmake_prefix_path.ps1'
+[15.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/hook/cmake_prefix_path.dsv'
+[15.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/hook/cmake_prefix_path.sh'
+[15.825s] Level 1:colcon.colcon_core.environment:checking '/home/rutika/wormhole_ws/install/multi_map_navigation/lib'
+[15.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_map_navigation', 'ld_library_path_lib')
+[15.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/hook/ld_library_path_lib.ps1'
+[15.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/hook/ld_library_path_lib.dsv'
+[15.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/hook/ld_library_path_lib.sh'
+[15.826s] Level 1:colcon.colcon_core.environment:checking '/home/rutika/wormhole_ws/install/multi_map_navigation/bin'
+[15.826s] Level 1:colcon.colcon_core.environment:checking '/home/rutika/wormhole_ws/install/multi_map_navigation/lib/pkgconfig/multi_map_navigation.pc'
+[15.826s] Level 1:colcon.colcon_core.environment:checking '/home/rutika/wormhole_ws/install/multi_map_navigation/lib/python3.10/site-packages'
+[15.826s] Level 1:colcon.colcon_core.environment:checking '/home/rutika/wormhole_ws/install/multi_map_navigation/bin'
+[15.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/package.ps1'
+[15.827s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/package.dsv'
+[15.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/package.sh'
+[15.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/package.bash'
+[15.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/rutika/wormhole_ws/install/multi_map_navigation/share/multi_map_navigation/package.zsh'
+[15.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rutika/wormhole_ws/install/multi_map_navigation/share/colcon-core/packages/multi_map_navigation)
+[15.828s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.828s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.828s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.828s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.891s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.892s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.892s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.892s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.895s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[15.895s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.896s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rutika/wormhole_ws/install/local_setup.ps1'
+[15.897s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rutika/wormhole_ws/install/_local_setup_util_ps1.py'
+[15.898s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rutika/wormhole_ws/install/setup.ps1'
+[15.899s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rutika/wormhole_ws/install/local_setup.sh'
+[15.900s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rutika/wormhole_ws/install/_local_setup_util_sh.py'
+[15.900s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rutika/wormhole_ws/install/setup.sh'
+[15.902s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rutika/wormhole_ws/install/local_setup.bash'
+[15.902s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rutika/wormhole_ws/install/setup.bash'
+[15.904s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rutika/wormhole_ws/install/local_setup.zsh'
+[15.905s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rutika/wormhole_ws/install/setup.zsh'

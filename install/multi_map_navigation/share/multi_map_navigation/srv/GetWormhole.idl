@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from multi_map_navigation/srv/GetWormhole.srv
+// generated code does not contain a copyright notice
+
+
+module multi_map_navigation {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request: Maps between which we want wormhole data")
+    struct GetWormhole_Request {
+      string map_from;
+
+      string map_to;
+    };
+    @verbatim (language="comment", text=
+      "Response: Wormhole coordinates")
+    struct GetWormhole_Response {
+      double x_from;
+
+      double y_from;
+
+      double theta_from;
+
+      double x_to;
+
+      double y_to;
+
+      double theta_to;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

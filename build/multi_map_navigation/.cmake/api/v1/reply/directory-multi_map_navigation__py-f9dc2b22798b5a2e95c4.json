@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "multi_map_navigation__py",
+		"source" : "/home/rutika/wormhole_ws/build/multi_map_navigation/multi_map_navigation__py"
+	}
+}
